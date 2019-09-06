@@ -1,7 +1,7 @@
 use solar_system;
-db dropDatabase();
+db.dropDatabase();
 
-db.solar_system.insertMany([
+db.planets.insertMany([
   {
     name: "Mercury",
     distance_from_sun: "57,900,000",
