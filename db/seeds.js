@@ -50,4 +50,75 @@ db.planets.insertMany([
     equitorial_diameter: "49,528",
     number_of_moons: 14
   },
+]);
+
+db.quizes.insertMany([
+  {
+    name: "Mercury",
+    questions: [
+      {
+        question: "How many moons does Mercury have?",
+        answer: 0,
+        options: [
+          2,3,0,1
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Mercury?",
+        answer: "4,879",
+        options: [
+          "4,879", "5,232", "8,697", "3,972"
+        ]
+      },
+      {
+        question: "How far is Mercury from the Sun?",
+        answer: "57,900,000",
+        options: [
+          "57,900,000", "58,900,000", "57,900,00", "67,900,000"
+      }
+    ]
+  },
+  {
+    name: "Venus",
+    questions: [
+
+    ]
+  },
+  {
+    name: "Earth",
+    questions: [
+
+    ]
+  },
+  {
+    name: "Mars",
+    questions: [
+
+    ]
+  },
+  {
+    name: "Jupiter",
+    questions: [
+
+    ]
+  },
+  {
+    name: "Saturn",
+    questions: [
+
+    ]
+  },
+  {
+    name: "Uranus",
+    questions: [
+
+    ]
+  },
+  {
+    name: "Neptune",
+    questions: [
+
+    ]
+  },
+
 ])
