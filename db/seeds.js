@@ -108,7 +108,27 @@ db.quizes.insertMany([
   {
     name: "Earth",
     questions: [
-
+      {
+        question: "How many moons does Earth have?",
+        answer: 1,
+        options: [
+          2,3,0,1
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Earth?",
+        answer: "12,756",
+        options: [
+          "12,798", "12,756", "12,657", "11,756"
+        ]
+      },
+      {
+        question: "How far is Earth from the Sun?",
+        answer: "149,600,000",
+        options: [
+          "169,400,000", "149,060,000", "194,600,000", "149,600,000"
+        ]
+      }
     ]
   },
   {
