@@ -12,8 +12,11 @@ MongoClient.connect('mongodb://localhost:27017')
   .then((client) => {
     const db = client.db('solar_system');
     const planetsCollection = db.collection('planets');
+    const quizesCollection = db.collection('quizes');
     const planetsRouter = createRouter(planetsCollection);
+    const quizesRouter = createRouter(quizesCollection);
     app.use('/api/planets', planetsRouter);
+    app.use('/api/quizes', quizesRouter);
   })
   .catch(console.err);
 
