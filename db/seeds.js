@@ -82,7 +82,27 @@ db.quizes.insertMany([
   {
     name: "Venus",
     questions: [
-
+      {
+        question: "How many moons does Venus have?",
+        answer: 0,
+        options: [
+          2,3,0,1
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Venus?",
+        answer: "12,104",
+        options: [
+          "12,798", "12,104", "11,104", "13,417"
+        ]
+      },
+      {
+        question: "How far is Venus from the Sun?",
+        answer: "108,160,000",
+        options: [
+          "108,106,000", "108,610,000", "109,106,160", "108,160,000"
+        ]
+      }
     ]
   },
   {
