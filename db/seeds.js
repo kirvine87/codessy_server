@@ -82,43 +82,183 @@ db.quizes.insertMany([
   {
     name: "Venus",
     questions: [
-
+      {
+        question: "How many moons does Venus have?",
+        answer: 0,
+        options: [
+          2,3,0,1
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Venus?",
+        answer: "12,104",
+        options: [
+          "12,798", "12,104", "11,104", "13,417"
+        ]
+      },
+      {
+        question: "How far is Venus from the Sun?",
+        answer: "108,160,000",
+        options: [
+          "108,106,000", "108,610,000", "109,106,160", "108,160,000"
+        ]
+      }
     ]
   },
   {
     name: "Earth",
     questions: [
-
+      {
+        question: "How many moons does Earth have?",
+        answer: 1,
+        options: [
+          2,3,0,1
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Earth?",
+        answer: "12,756",
+        options: [
+          "12,798", "12,756", "12,657", "11,756"
+        ]
+      },
+      {
+        question: "How far is Earth from the Sun?",
+        answer: "149,600,000",
+        options: [
+          "169,400,000", "149,060,000", "194,600,000", "149,600,000"
+        ]
+      }
     ]
   },
   {
     name: "Mars",
     questions: [
-
+      {
+        question: "How many moons does Mars have?",
+        answer: 2,
+        options: [
+          2,3,0,1
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Mars?",
+        answer: "6,805",
+        options: [
+          "7,508", "6,508", "6,805", "7,805"
+        ]
+      },
+      {
+        question: "How far is Mars from the Sun?",
+        answer: "227,936,640",
+        options: [
+          "273,936,640", "227,936,640", "227,639,640", "227,936,046"
+        ]
+      }
     ]
   },
   {
     name: "Jupiter",
     questions: [
-
+      {
+        question: "How many moons does Jupiter have?",
+        answer: 67,
+        options: [
+          66,76,63,67
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Jupiter?",
+        answer: "142,984",
+        options: [
+          "142,984", "124,984", "142,489", "142,948"
+        ]
+      },
+      {
+        question: "How far is Jupiter from the Sun?",
+        answer: "778,369,000",
+        options: [
+          "778,963,000", "778,936,000", "787,369,000", "778,369,000"
+        ]
+      }
     ]
   },
   {
     name: "Saturn",
     questions: [
-
+      {
+        question: "How many moons does Saturn have?",
+        answer: 62,
+        options: [
+          66,62,26,63
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Saturn?",
+        answer: "120,536",
+        options: [
+          "121,536", "120,566", "120,536", "120,635"
+        ]
+      },
+      {
+        question: "How far is Saturn from the Sun?",
+        answer: "1,427,034,000",
+        options: [
+          "1,500,034,000", "1,427,043,000", "1,427,034,000", "1,472,034,000"
+        ]
+      }
     ]
   },
   {
     name: "Uranus",
     questions: [
-
+      {
+        question: "How many moons does Uranus have?",
+        answer: 27,
+        options: [
+          30,28,26,27
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Uranus?",
+        answer: "51,118",
+        options: [
+          "51,118", "58,118", "51,811", "51,181"
+        ]
+      },
+      {
+        question: "How far is Uranus from the Sun?",
+        answer: "2,870,658,186",
+        options: [
+          "2,870,658,681", "2,870,856,186", "2,780,658,186", "2,870,658,186"
+        ]
+      }
     ]
   },
   {
     name: "Neptune",
     questions: [
-
+      {
+        question: "How many moons does Neptune have?",
+        answer: 14,
+        options: [
+          13,15,17,14
+        ]
+      },
+      {
+        question: "How large is the equitorial diameter of Neptune?",
+        answer: "49,528",
+        options: [
+          "49,825", "49,852", "49,000", "49,528"
+        ]
+      },
+      {
+        question: "How far is Neptune from the Sun?",
+        answer: "4,496,976,000",
+        options: [
+          "4,469,967,000", "4,469,976,000", "4,496,679,000", "4,496,976,000"
+        ]
+      }
     ]
   },
 
