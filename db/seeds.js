@@ -262,4 +262,44 @@ db.quizes.insertMany([
     ]
   },
 
-])
+]);
+
+db.results.insertMany([
+  {
+    name: "Solar System",
+    result: null
+  },
+  {
+    name: "Mercury",
+    result: null
+  },
+  {
+    name: "Venus",
+    result: null
+  },
+  {
+    name: "Earth",
+    result: null
+  },
+  {
+    name: "Mars",
+    result: null
+  },
+  {
+    name: "Jupitor",
+    result: null
+  },
+  {
+    name: "Saturn",
+    result: null
+  },
+  {
+    name: "Uranus",
+    result: null
+  },
+  {
+    name: "Neptune",
+    result: null
+  }
+
+]);
