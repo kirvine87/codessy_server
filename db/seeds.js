@@ -106,10 +106,10 @@ db.quizes.insertMany([
         ]
       },
       {
-        question: "How many planets are in the Soalr System?",
-        answer: 8,
+        question: "Where are planets located in the Solar System?",
+        answer: "Inner and outer",
         options: [
-          9, 8, 6, 20
+          "Inner", "Inner and outer", "Outer", "Outside"
         ]
       },
     ]
