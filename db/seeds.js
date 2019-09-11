@@ -347,7 +347,7 @@ db.results.insertMany([
     result: null
   },
   {
-    name: "Jupitor",
+    name: "Jupiter",
     result: null
   },
   {
