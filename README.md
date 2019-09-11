@@ -4,6 +4,12 @@
 Codessy is FUN based active learning app which allows its users to take a journey across the solar system. It gives them the opportunity to learn interesting facts about planets in our solar system and even the system itself using quick informative snap facts. The users can then put that knowledge to the test by taking the quiz of their choice whilst keeping track of their previous scores.    
 ```
 
+##Repo
+```
+Client: https://github.com/kirvine87/js_project_client
+server: https://github.com/kirvine87/js_project_server
+```
+
 ##Client
 
 ## Project setup
