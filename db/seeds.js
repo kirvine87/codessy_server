@@ -54,6 +54,67 @@ db.planets.insertMany([
 
 db.quizes.insertMany([
   {
+    name: "Solar System",
+    questions: [
+      {
+        question: "How old is the Solar System(billion years)?",
+        answer: 4.6,
+        options: [
+          4.6,4.8,6.4,3
+        ]
+      },
+      {
+        question: "How many planets are in the Solar System?",
+        answer: 8,
+        options: [
+          9, 8, 6, 20
+        ]
+      },
+      {
+        question: "How many dwarf planets are in the Soalr System?",
+        answer: 5,
+        options: [
+          5, 9, 6, 4
+        ]
+      },
+      {
+        question: "How many moons are in the Solar System ?",
+        answer: 181,
+        options: [
+          9, 10, 172, 181
+        ]
+      },
+      {
+        question: "What is the diameter of the Solar System(trillion km)?",
+        answer: 18.75,
+        options: [
+          16.75, 18.75, 18.57, 16.57
+        ]
+      },
+      {
+        question: "What seperates the inner and outer Solar System?",
+        answer: "Asteroid Belt",
+        options: [
+          "Stars", "Jupiter", "Asteroid Belt", "Star Belt"
+        ]
+      },
+      {
+        question: "Which planets orbit the sun?",
+        answer: "All",
+        options: [
+          "Earth", "None", "Mercury and Venus", "All"
+        ]
+      },
+      {
+        question: "Where are planets located in the Solar System?",
+        answer: "Inner and outer",
+        options: [
+          "Inner", "Inner and outer", "Outer", "Outside"
+        ]
+      },
+    ]
+  },
+  {
     name: "Mercury",
     questions: [
       {
