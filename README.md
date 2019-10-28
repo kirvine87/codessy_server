@@ -9,10 +9,8 @@ taking the quiz of their choice whilst keeping track of their previous scores.
 ```
 
 ## Repo
-```
-Client: https://github.com/kirvine87/js_project_client
-server: https://github.com/kirvine87/js_project_server
-```
+[Client](https://github.com/kirvine87/js_project_client) </br>
+[Server](https://github.com/kirvine87/js_project_server)
 
 ## Client
 
