@@ -21,7 +21,7 @@ server: https://github.com/kirvine87/js_project_server
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Runs Client
 ```
 npm run serve
 ```
